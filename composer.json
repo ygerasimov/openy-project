@@ -6,7 +6,7 @@
     "require": {
         "ymcatwincities/openy": "dev-8.x-2.x-activity-finder",
         "composer/installers": "^1.2",
-        "drupal-composer/drupal-scaffold": "^2.2",
+        "drupal-composer/drupal-scaffold": "^2.5.0",
         "cweagans/composer-patches": "~1.0"
     },
     "require-dev": {
@@ -38,12 +38,12 @@
             "type": "package",
             "package": {
                 "name": "library-kenwheeler/slick",
-                "version": "1.6.0",
+                "version": "1.8.0",
                 "type": "drupal-library",
                 "source": {
                     "url": "https://github.com/kenwheeler/slick",
                     "type": "git",
-                    "reference": "1.6.0"
+                    "reference": "1.8.0"
                 }
             }
         },
@@ -77,12 +77,12 @@
             "type": "package",
             "package": {
                 "name": "library-enyo/dropzone",
-                "version": "4.3.0",
+                "version": "5.5.0",
                 "type": "drupal-library",
                 "source": {
                     "url": "https://github.com/enyo/dropzone",
                     "type": "git",
-                    "reference": "v4.3.0"
+                    "reference": "v5.5.0"
                 }
             }
         },
@@ -103,10 +103,10 @@
             "type": "package",
             "package": {
                 "name": "library-ckeditor/panelbutton",
-                "version": "4.7.0",
+                "version": "4.10.1",
                 "type": "drupal-library",
                 "dist": {
-                    "url": "http://download.ckeditor.com/panelbutton/releases/panelbutton_4.7.0.zip",
+                    "url": "http://download.ckeditor.com/panelbutton/releases/panelbutton_4.10.1.zip",
                     "type": "zip"
                 }
             }
@@ -115,10 +115,10 @@
             "type": "package",
             "package": {
                 "name": "library-ckeditor/colorbutton",
-                "version": "4.7.0",
+                "version": "4.10.1",
                 "type": "drupal-library",
                 "dist": {
-                    "url": "http://download.ckeditor.com/colorbutton/releases/colorbutton_4.7.0.zip",
+                    "url": "http://download.ckeditor.com/colorbutton/releases/colorbutton_4.10.1.zip",
                     "type": "zip"
                 }
             }
@@ -127,10 +127,10 @@
             "type": "package",
             "package": {
                 "name": "library-ckeditor/colordialog",
-                "version": "4.7.0",
+                "version": "4.10.1",
                 "type": "drupal-library",
                 "dist": {
-                    "url": "http://download.ckeditor.com/colordialog/releases/colordialog_4.7.0.zip",
+                    "url": "http://download.ckeditor.com/colordialog/releases/colordialog_4.10.1.zip",
                     "type": "zip"
                 }
             }
@@ -170,6 +170,18 @@
                     "url": "https://github.com/grt107/grt-youtube-popup",
                     "type": "git",
                     "reference": "d5cb51ae5dbe526dba7d82c646ec0f46791fa7a0"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "library-davekoelle/alphanum",
+                "version": "1.0.0",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/AndreyMaximov/alphanum/archive/1.0.0.zip",
+                    "type": "zip"
                 }
             }
         }
